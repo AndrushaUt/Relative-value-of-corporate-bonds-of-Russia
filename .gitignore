@@ -1,0 +1,22 @@
+# Виртуальное окружение
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Данные и модели — выкладываются отдельно, см. README
+data/
+models/
+logs/
+*.csv
+*.cbm
+
+# Учётные данные
+*_cookies.json
+*.token
+.env
+
+# Служебное
+.DS_Store
+.ipynb_checkpoints/
+.claude/

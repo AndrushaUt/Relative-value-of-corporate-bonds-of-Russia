@@ -1,0 +1,27 @@
+# Python 3.12
+
+# Данные и вычисления
+numpy==2.4.4
+pandas==3.0.1
+scipy==1.17.1
+
+# Модели
+catboost==1.2.10
+scikit-learn==1.8.0
+statsmodels==0.14.6
+optuna==4.8.0
+torch==2.11.0          # MLP-классификатор кредитного риска (NB 14)
+shap==0.51.0
+
+# Сбор данных
+requests==2.33.0
+aiohttp==3.13.5        # асинхронная загрузка торгов и РСБУ
+playwright==1.58.0     # парсинг Cbonds
+lxml==6.1.1
+tqdm==4.67.3
+
+# Графики и ноутбуки
+matplotlib==3.10.8
+seaborn==0.13.2
+missingno==0.5.2       # карты пропусков в NB 01
+jupyterlab==4.5.6
